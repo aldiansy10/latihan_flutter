@@ -76,6 +76,52 @@ class FontTextWidget extends StatelessWidget {
                   'Terima laundry setiap hari\nBisa pilih layanan express\nSilakan datang ke tempat kami',
                   style: TextStyle(fontSize: 16, height: 1.5),
                 ),
+
+                SizedBox(height: 25),
+
+                Text(
+                  'Promo Laundry',
+                  style: TextStyle(
+                    fontSize: 20,
+                    decoration: TextDecoration.underline,
+                  ),
+                ),
+
+                SizedBox(height: 15),
+
+                Text(
+                  'Harga Normal Rp10.000',
+                  style: TextStyle(
+                    fontSize: 18,
+                    decoration: TextDecoration.lineThrough,
+                  ),
+                ),
+
+                SizedBox(height: 15),
+
+                Text(
+                  'Sekarang Rp7.000/kg',
+                  style: TextStyle(
+                    fontSize: 20,
+                    backgroundColor: Colors.yellow,
+                  ),
+                ),
+
+                SizedBox(height: 20),
+
+                Text(
+                  'Laundry Aldi',
+                  style: TextStyle(
+                    fontSize: 30,
+                    shadows: [
+                      Shadow(
+                        offset: Offset(3, 3),
+                        blurRadius: 5,
+                        color: Colors.grey,
+                      ),
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
